@@ -1,0 +1,41 @@
+{
+  "profiles": {
+    "EchoIISProxy": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:44335;http://localhost:59371",
+      "dotnetRunMessages": true
+    },
+    "IIS Express OutOfProcess": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:44335/AppPath/EchoService",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "use64Bit": true,
+      "ancmHostingModel": "OutOfProcess"
+    },
+    "IIS Express InProcess": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:44335/AppPath/EchoService",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "use64Bit": true,
+      "ancmHostingModel": "InProcess"
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59371",
+      "sslPort": 44335
+    }
+  }
+}
