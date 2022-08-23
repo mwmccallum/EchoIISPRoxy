@@ -70,7 +70,7 @@ try
 
   // Add Each WCF Service for DI into CoreWCF
   // each new service must be added to this extension method
-  //builder.Services.AddEchoIISProxyServices ();
+  builder.Services.AddEchoIISProxyServices ();
 
   var app = builder.Build ();
 
