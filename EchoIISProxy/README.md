@@ -40,6 +40,8 @@ appsettings.json settings:
 }
 ```
 
+Also update web.config to show OutOfProcess for hosting model.
+
 Run Project with: IIS Express OutOfProcess
 
 From Output window, you will see the out of process Kestrel server loaded. Now listening on http://127.0.0.1:PortNo will be shown with the random port number.
@@ -70,6 +72,8 @@ appsettings.json settings:
   isIISInProcessUsed = true
 }
 ```
+
+Also update web.config to show InProcess for hosting model.
 
 Run Project with: IIS Express InProcess
 
